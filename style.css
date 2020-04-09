@@ -1,0 +1,132 @@
+html {
+  font-family: "Josefin Sans", sans-serif;
+  color: #001f3f;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  /*background-color: #696;
+  background-color: #696106;*/
+  background-color: #001f3f;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+a {
+  display: block;
+  margin: 0px 10px;
+  color: white;
+  font-size: 2em;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+section.top {
+  margin-top: 80px;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  line-height: 1.5em;
+  margin-left: 50px;
+  list-style-type: square;
+  font-size: 1.25em;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin-top: 0px;
+  font-family: "Merriweather", serif;
+}
+
+.article-left {
+  flex-basis: 400px;
+  position: relative;
+}
+
+.article-right {
+  flex-basis: 70%;
+  padding: 20px;
+}
+
+.mainline {
+  font-family: "Abril Fatface", cursive;
+  color: #ff4136;
+  position: absolute;
+  left: 100px;
+  top: 270px;
+  margin: 0px;
+  font-size: 3em;
+  width: 450px;
+}
+
+.anakin {
+  background-image: url("https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-9/p960x960/79237651_2728907930498635_4768157887543377920_o.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_ohc=MoFOPgY8fIEAX8kmpGo&_nc_ht=scontent.fbud4-1.fna&_nc_tp=6&oh=c8edc9f49611c4ef74d5e0b52461d53a&oe=5EB3F685");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transform: rotate(350deg);
+}
+
+.article-title {
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+blockquote {
+  font-family: "Abril Fatface", cursive;
+  background-color: #001f3f;
+  color: white;
+  font-size: 3em;
+  padding: 60px 20px 60px 30px;
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  font-size: 2.5em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
