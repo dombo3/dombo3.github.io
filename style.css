@@ -69,6 +69,10 @@ h4 {
   padding: 20px;
 }
 
+.article-right .nested {
+  padding: 0px;
+}
+
 .mainline {
   font-family: "Abril Fatface", cursive;
   color: #ff4136;
@@ -107,12 +111,8 @@ blockquote {
   box-sizing: border-box;
 }
 
-blockquote::before {
-  content: "“";
-  position: absolute;
-  top: -30px;
-  left: 0px;
-  font-size: 2.5em;
+#seal-csm {
+  width: 250px;
 }
 
 a:link {
